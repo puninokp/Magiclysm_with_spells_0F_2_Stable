@@ -1,0 +1,99 @@
+[
+
+    {
+        "type": "item_group",
+        "id": "mon_crystal_golem_drops",
+        "subtype": "collection",
+        "entries": [ { "item": "PSY_magi_golem_crystal", "prob": 100 },{ "item": "PSY_magi_magical_coin_bronze", "count": [ 1, 3 ] } ]
+    },
+
+    {
+        "type": "item_group",
+        "id": "PSY_magi_mon_rnd_mon_spoon_drops",
+        "subtype": "collection",
+        "entries": [ { "item": "spoon", "prob": 100 },{ "item": "PSY_magi_magical_coin_bronze", "count": [ 1, 3 ] } ]
+    },
+
+    {
+        "type": "item_group",
+        "id": "PSY_magi_mon_rnd_mon_knife_butter_drops",
+        "subtype": "collection",
+        "entries": [ { "item": "knife_butter", "prob": 100 },{ "item": "PSY_magi_magical_coin_bronze", "count": [ 1, 3 ] } ]
+    },
+
+    {
+        "type": "item_group",
+        "id": "PSY_magi_mon_rnd_mon_fork_drops",
+        "subtype": "collection",
+        "entries": [ { "item": "fork", "prob": 100 },{ "item": "PSY_magi_magical_coin_bronze", "count": [ 1, 3 ] } ]
+    },
+
+    {
+        "type": "item_group",
+        "id": "PSY_magi_mon_rnd_mon_spork_drops",
+        "subtype": "collection",
+        "entries": [ { "item": "spork", "prob": 100 },{ "item": "PSY_magi_magical_coin_bronze", "count": [ 1, 3 ] } ]
+    },
+
+    {
+        "type": "item_group",
+        "id": "PSY_magi_mon_rnd_mon_summoner_insect_drops",
+        "subtype": "collection",
+        "entries": [ { "item": "PSY_magi_wand_summon_insects", "prob": 20 },{ "item": "PSY_magi_magical_coin_bronze", "count": [ 5, 10 ] } ]
+    },
+
+    {
+        "type": "item_group",
+        "id": "PSY_magi_mon_rnd_mon_enchanter_drops",
+        "subtype": "collection",
+        "entries": [ { "item": "PSY_magi_wand_magic_transform_minor", "prob": 20 },{ "item": "PSY_magi_magical_coin_bronze", "count": [ 5, 10 ] } ]
+    },
+
+    {
+        "type": "item_group",
+        "id": "PSY_magi_mon_rnd_mon_summoner_totem_drops",
+        "subtype": "collection",
+        "entries": [ 
+            { "item": "spell_scroll_PSY_magi_spell_repair_totem", "prob": 5 },
+            { "item": "spell_scroll_PSY_magi_spawn_taunt_totem", "prob": 5 },
+            { "item": "spell_scroll_PSY_magi_spell_morph_totem", "prob": 5 },
+            { "item": "PSY_magi_create_totems_spellbook", "prob": 30 },
+            { "item": "PSY_magi_magical_coin_bronze", "count": [ 5, 10 ] } ]
+    },
+
+    {
+        "type": "item_group",
+        "id": "PSY_magi_mon_rnd_mon_botanist_drops",
+        "subtype": "collection",
+        "entries": [ { "item": "PSY_magi_Vegetable_paradox", "prob": 30 },{ "item": "PSY_magi_magical_coin_bronze", "count": [ 5, 10 ] } ]
+    },
+
+    {
+        "type": "item_group",
+        "id": "PSY_magi_mon_rnd_coin_1_mon_drops",
+        "subtype": "collection",
+        "entries": [ { "item": "PSY_magi_magical_coin_bronze", "count": [ 1, 3 ] } ]
+    },
+
+    {
+        "type": "item_group",
+        "id": "PSY_magi_mon_rnd_coin_2_mon_drops",
+        "subtype": "collection",
+        "entries": [ { "item": "PSY_magi_magical_coin_bronze", "count": [ 3, 6 ] } ]
+    },
+
+    {
+        "type": "item_group",
+        "id": "PSY_magi_mon_rnd_coin_3_mon_drops",
+        "subtype": "collection",
+        "entries": [ { "item": "PSY_magi_magical_coin_bronze", "count": [ 10, 30 ] } ]
+    },
+
+    {
+        "type": "item_group",
+        "id": "PSY_magi_mon_rnd_coin_4_mon_drops",
+        "subtype": "collection",
+        "entries": [ { "item": "PSY_magi_magical_coin_bronze", "count": [ 30, 99 ] } ]
+    }
+
+]

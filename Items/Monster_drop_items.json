@@ -1,0 +1,64 @@
+[
+
+    {
+        "type": "ammunition_type",
+        "id": "magical_coin",
+        "name": "magical_coin",
+        "default": "PSY_magi_magical_coin_bronze"
+      },
+
+    {
+        "type": "AMMO",
+        "category": "spare_parts",
+        "id": "PSY_magi_magical_coin_bronze",
+        "name": { "str": "Magical Coin" },
+        "description": "These coins are used in the crafting menu to enhance your body and acquire magic.",
+        "price": 500,
+        "price_postapoc": 25,
+        "//": "$50 bills have substantial pre-Cataclysm value, but are worth 1 meat jerky",
+        "weight": "1 g",
+        "volume": "1 ml",
+        "to_hit": -3,
+        "color": "white",
+        "symbol": "$",
+        "material": [ "plastic" ],
+        "ammo_type": "magical_coin"
+    },
+
+    {
+        "type": "AMMO",
+        "category": "spare_parts",
+        "id": "PSY_magi_magical_coin_silver",
+        "name": { "str": "Magical silver coin" },
+        "description": "These coins are used in the crafting menu to enhance your body and acquire magic.",
+        "price": 1500,
+        "price_postapoc": 100,
+        "//": "$50 bills have substantial pre-Cataclysm value, but are worth 1 meat jerky",
+        "weight": "1 g",
+        "volume": "1 ml",
+        "to_hit": -3,
+        "color": "white",
+        "symbol": "$",
+        "material": [ "plastic" ],
+        "ammo_type": "magical_coin"
+    },
+
+    {
+        "type": "AMMO",
+        "category": "spare_parts",
+        "id": "PSY_magi_magical_coin_gold",
+        "name": { "str": "Magical gold coin" },
+        "description": "These coins are used in the crafting menu to enhance your body and acquire magic.",
+        "price": 5000,
+        "price_postapoc": 250,
+        "//": "$50 bills have substantial pre-Cataclysm value, but are worth 1 meat jerky",
+        "weight": "1 g",
+        "volume": "1 ml",
+        "to_hit": -3,
+        "color": "white",
+        "symbol": "$",
+        "material": [ "plastic" ],
+        "ammo_type": "magical_coin"
+    }
+
+]

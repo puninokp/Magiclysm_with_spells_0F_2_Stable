@@ -1,0 +1,36 @@
+[
+
+
+    {
+        "type": "item_group",
+        "id": "PSY_magi_group_rice_balls",
+        "items": [ [ "PSY_magi_rice_ball", 1 ], [ "PSY_magi_grilled_rice_ball", 1 ]]
+    },
+
+    {
+        "type": "item_group",
+        "subtype": "collection",
+        "id": "PSY_magi_vending_food",
+        "entries": [
+          { "group": "vending_food_items", "count-min": 5, "count-max": 20 },
+          { "group": "vending_food_items", "prob": 66, "count-min": 5, "count-max": 25 },
+          { "group": "PSY_magi_group_rice_balls", "count-min": 2, "count-max": 4 },
+          { "group": "alchemy_items", "count-min": 5, "count-max": 10 },
+          { "group": "alchemy_items", "prob": 20, "count-min": 5, "count-max": 10 }
+        ]
+      },
+      {
+        "type": "item_group",
+        "subtype": "collection",
+        "id": "PSY_magi_vending_drink",
+        "entries": [
+          { "group": "potions_common", "count-min": 3, "count-max": 5 },
+          { "group": "potions_common", "prob": 66, "count-min": 2, "count-max": 5 },
+          { "group": "vending_drink_items", "count-min": 5, "count-max": 25 },
+          { "group": "vending_drink_items", "prob": 66, "count-min": 5, "count-max": 25 },
+          { "group": "vending_drink_items", "prob": 20, "count-min": 5, "count-max": 25 }
+        ]
+      }
+
+
+]

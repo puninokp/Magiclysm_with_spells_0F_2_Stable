@@ -1,0 +1,27 @@
+[
+
+    {
+        "id": "PSY_magi_wand_summon_clone",
+        "type": "TOOL",
+        "name": "Clone of compressed cells.",
+        "weight": "25000 g",
+        "volume": "20000 ml",
+        "price": "400 USD",
+        "bashing": 1,
+        "to_hit": 1,
+        "material": [ "wood" ],
+        "looks_like": "spell_wand",
+        "description": "It's your clone. Use this to create own clone that follow you and support your life.",
+        "symbol": "|",
+        "color": "brown",
+        "flags": [ "BELT_CLIP", "NONCONDUCTIVE", "MAGIC_FOCUS" ],
+        "use_action": {
+          "type": "place_npc",
+          "npc_class_id": "PSY_magi_yourclone",
+          "summon_msg": "hmm?",
+          "place_randomly": true,
+          "moves": 50
+        }
+      }
+
+]

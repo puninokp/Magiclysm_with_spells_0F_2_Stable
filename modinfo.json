@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "PSY_magi_spells",
+    "name": "<color_light_green>Magiclysm with Spells</color>",
+    "authors": [ "Punin" ],
+    "description": "unofficial Expansion of magiclysm.",
+    "category": "misc_additions",
+    "dependencies": [ "dda" , "magiclysm"]
+  }
+]
